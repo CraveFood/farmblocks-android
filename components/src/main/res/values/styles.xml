@@ -1,0 +1,271 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <style name="FarmBlocks"/>
+
+    <style name="FarmBlocks.TextStyle"/>
+
+    <style name="FarmBlocks.TextStyle.H1">
+        <item name="android:textColor">@color/colorText1</item>
+        <item name="android:fontFamily">@font/lato_semibold</item>
+        <item name="android:letterSpacing">0</item>
+        <item name="android:textSize">72sp</item>
+        <item name="android:fontWeight"
+              tools:targetApi="o">600
+        </item>
+    </style>
+
+    <style name="FarmBlocks.TextStyle.H1.Left">
+        <item name="android:textAlignment">textStart</item>
+    </style>
+
+    <style name="FarmBlocks.TextStyle.H1.Center">
+        <item name="android:textAlignment">center</item>
+    </style>
+
+    <style name="FarmBlocks.TextStyle.H1.Right">
+        <item name="android:textAlignment">textEnd</item>
+    </style>
+
+    <style name="FarmBlocks.TextStyle.H1.Negative">
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:fontFamily">@font/lato_semibold</item>
+        <item name="android:letterSpacing">0</item>
+        <item name="android:textSize">72sp</item>
+        <item name="android:fontWeight"
+              tools:targetApi="o">600
+        </item>
+    </style>
+
+    <style name="FarmBlocks.TextStyle.H1.Negative.Left">
+        <item name="android:textAlignment">textStart</item>
+    </style>
+
+    <style name="FarmBlocks.TextStyle.H1.Negative.Center">
+        <item name="android:textAlignment">center</item>
+    </style>
+
+    <style name="FarmBlocks.TextStyle.H1.Negative.Right">
+        <item name="android:textAlignment">textEnd</item>
+    </style>
+
+    <style name="FarmBlocks.TextStyle.H2">
+        <item name="android:textColor">@color/colorText1</item>
+        <item name="android:fontFamily">@font/lato_semibold</item>
+        <item name="android:letterSpacing">0</item>
+        <item name="android:textSize">56sp</item>
+        <item name="android:fontWeight"
+              tools:targetApi="o">600
+        </item>
+    </style>
+
+    <style name="FarmBlocks.TextStyle.H2.Left">
+        <item name="android:textAlignment">textStart</item>
+    </style>
+
+    <style name="FarmBlocks.TextStyle.H2.Center">
+        <item name="android:textAlignment">center</item>
+    </style>
+
+    <style name="FarmBlocks.TextStyle.H2.Right">
+        <item name="android:textAlignment">textEnd</item>
+    </style>
+
+    <style name="FarmBlocks.TextStyle.H2.Negative">
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:fontFamily">@font/lato_semibold</item>
+        <item name="android:letterSpacing">0</item>
+        <item name="android:textSize">56sp</item>
+        <item name="android:fontWeight"
+              tools:targetApi="o">600
+        </item>
+    </style>
+
+    <style name="FarmBlocks.TextStyle.H2.Negative.Left">
+        <item name="android:textAlignment">textStart</item>
+    </style>
+
+    <style name="FarmBlocks.TextStyle.H2.Negative.Center">
+        <item name="android:textAlignment">center</item>
+    </style>
+
+    <style name="FarmBlocks.TextStyle.H2.Negative.Right">
+        <item name="android:textAlignment">textEnd</item>
+    </style>
+
+    <style name="FarmBlocks.TextStyle.H3">
+        <item name="android:textColor">@color/colorText1</item>
+        <item name="android:fontFamily">@font/lato_semibold</item>
+        <item name="android:letterSpacing">0</item>
+        <item name="android:textSize">40sp</item>
+        <item name="android:fontWeight"
+              tools:targetApi="o">600
+        </item>
+    </style>
+
+    <style name="FarmBlocks.TextStyle.H3.Left">
+        <item name="android:textAlignment">textStart</item>
+    </style>
+
+    <style name="FarmBlocks.TextStyle.H3.Center">
+        <item name="android:textAlignment">center</item>
+    </style>
+
+    <style name="FarmBlocks.TextStyle.H3.Right">
+        <item name="android:textAlignment">textEnd</item>
+    </style>
+
+    <style name="FarmBlocks.TextStyle.H3.Negative">
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:fontFamily">@font/lato_semibold</item>
+        <item name="android:letterSpacing">0</item>
+        <item name="android:textSize">40sp</item>
+        <item name="android:fontWeight"
+              tools:targetApi="o">600
+        </item>
+    </style>
+
+    <style name="FarmBlocks.TextStyle.H3.Negative.Left">
+        <item name="android:textAlignment">textStart</item>
+    </style>
+
+    <style name="FarmBlocks.TextStyle.H3.Negative.Center">
+        <item name="android:textAlignment">center</item>
+    </style>
+
+    <style name="FarmBlocks.TextStyle.H3.Negative.Right">
+        <item name="android:textAlignment">textEnd</item>
+    </style>
+
+    <style name="FarmBlocks.TextStyle.H4">
+        <item name="android:textColor">@color/colorText1</item>
+        <item name="android:fontFamily">@font/lato_semibold</item>
+        <item name="android:letterSpacing">0</item>
+        <item name="android:textSize">24sp</item>
+        <item name="android:fontWeight"
+              tools:targetApi="o">600
+        </item>
+    </style>
+
+    <style name="FarmBlocks.TextStyle.H4.Left">
+        <item name="android:textAlignment">textStart</item>
+    </style>
+
+    <style name="FarmBlocks.TextStyle.H4.Center">
+        <item name="android:textAlignment">center</item>
+    </style>
+
+    <style name="FarmBlocks.TextStyle.H4.Right">
+        <item name="android:textAlignment">textEnd</item>
+    </style>
+
+    <style name="FarmBlocks.TextStyle.H4.Negative">
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:fontFamily">@font/lato_semibold</item>
+        <item name="android:letterSpacing">0</item>
+        <item name="android:textSize">24sp</item>
+        <item name="android:fontWeight"
+              tools:targetApi="o">600
+        </item>
+    </style>
+
+    <style name="FarmBlocks.TextStyle.H4.Negative.Left">
+        <item name="android:textAlignment">textStart</item>
+    </style>
+
+    <style name="FarmBlocks.TextStyle.H4.Negative.Center">
+        <item name="android:textAlignment">center</item>
+    </style>
+
+    <style name="FarmBlocks.TextStyle.H4.Negative.Right">
+        <item name="android:textAlignment">textEnd</item>
+    </style>
+
+    <style name="FarmBlocks.TextStyle.H5">
+        <item name="android:textColor">@color/colorText1</item>
+        <item name="android:fontFamily">@font/lato_semibold</item>
+        <item name="android:letterSpacing">0</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:fontWeight"
+              tools:targetApi="o">600
+        </item>
+    </style>
+
+    <style name="FarmBlocks.TextStyle.H5.Left">
+        <item name="android:textAlignment">textStart</item>
+    </style>
+
+    <style name="FarmBlocks.TextStyle.H5.Center">
+        <item name="android:textAlignment">center</item>
+    </style>
+
+    <style name="FarmBlocks.TextStyle.H5.Right">
+        <item name="android:textAlignment">textEnd</item>
+    </style>
+
+    <style name="FarmBlocks.TextStyle.H5.Negative">
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:fontFamily">@font/lato_semibold</item>
+        <item name="android:letterSpacing">0</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:fontWeight"
+              tools:targetApi="o">600
+        </item>
+    </style>
+
+    <style name="FarmBlocks.TextStyle.H5.Negative.Left">
+        <item name="android:textAlignment">textStart</item>
+    </style>
+
+    <style name="FarmBlocks.TextStyle.H5.Negative.Center">
+        <item name="android:textAlignment">center</item>
+    </style>
+
+    <style name="FarmBlocks.TextStyle.H5.Negative.Right">
+        <item name="android:textAlignment">textEnd</item>
+    </style>
+
+    <style name="FarmBlocks.TextStyle.H6">
+        <item name="android:textColor">@color/colorText1</item>
+        <item name="android:fontFamily">@font/lato_semibold</item>
+        <item name="android:letterSpacing">0</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:fontWeight"
+              tools:targetApi="o">600
+        </item>
+    </style>
+
+    <style name="FarmBlocks.TextStyle.H6.Left">
+        <item name="android:textAlignment">textStart</item>
+    </style>
+
+    <style name="FarmBlocks.TextStyle.H6.Center">
+        <item name="android:textAlignment">center</item>
+    </style>
+
+    <style name="FarmBlocks.TextStyle.H6.Right">
+        <item name="android:textAlignment">textEnd</item>
+    </style>
+
+    <style name="FarmBlocks.TextStyle.H6.Negative">
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:fontFamily">@font/lato_semibold</item>
+        <item name="android:letterSpacing">0</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:fontWeight"
+              tools:targetApi="o">600
+        </item>
+    </style>
+
+    <style name="FarmBlocks.TextStyle.H6.Negative.Left">
+        <item name="android:textAlignment">textStart</item>
+    </style>
+
+    <style name="FarmBlocks.TextStyle.H6.Negative.Center">
+        <item name="android:textAlignment">center</item>
+    </style>
+
+    <style name="FarmBlocks.TextStyle.H6.Negative.Right">
+        <item name="android:textAlignment">textEnd</item>
+    </style>
+
+</resources>
