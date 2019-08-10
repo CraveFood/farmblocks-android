@@ -498,4 +498,15 @@
         <item name="android:textAlignment">textEnd</item>
     </style>
 
+    <!--Overline Styles-->
+
+    <style name="FarmBlocks.TextStyle.Overline">
+        <item name="android:textColor">@color/colorText2</item>
+        <item name="android:fontFamily">@font/lato_semibold</item>
+        <item name="android:letterSpacing">0</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:fontWeight"
+              tools:targetApi="o">600
+        </item>
+    </style>
 </resources>
