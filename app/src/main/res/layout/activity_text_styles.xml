@@ -360,6 +360,99 @@
                   android:layout_height="wrap_content"
                   tools:ignore="HardcodedText"/>
 
+        <TextView android:layout_width="match_parent"
+                  style="@style/FarmBlocks.TextStyle.Button.White.Left"
+                  android:text="Button-W-L"
+                  android:layout_height="wrap_content"
+                  android:background="#8F000000"
+                  tools:ignore="HardcodedText"/>
+
+        <TextView android:layout_width="match_parent"
+                  style="@style/FarmBlocks.TextStyle.Button.White.Center"
+                  android:text="Button-W-C"
+                  android:background="#8F000000"
+                  android:layout_height="wrap_content"
+                  tools:ignore="HardcodedText"/>
+
+        <TextView android:layout_width="match_parent"
+                  style="@style/FarmBlocks.TextStyle.Button.White.Right"
+                  android:text="Button-W-R"
+                  android:background="#8F000000"
+                  android:layout_height="wrap_content"
+                  tools:ignore="HardcodedText"/>
+
+        <TextView android:layout_width="match_parent"
+                  style="@style/FarmBlocks.TextStyle.Button.Neutral.Left"
+                  android:text="Button-N-L"
+                  android:layout_height="wrap_content"
+                  tools:ignore="HardcodedText"/>
+
+        <TextView android:layout_width="match_parent"
+                  style="@style/FarmBlocks.TextStyle.Button.Neutral.Center"
+                  android:text="Button-N-C"
+                  android:layout_height="wrap_content"
+                  tools:ignore="HardcodedText"/>
+
+        <TextView android:layout_width="match_parent"
+                  style="@style/FarmBlocks.TextStyle.Button.Neutral.Right"
+                  android:text="Button-N-R"
+                  android:layout_height="wrap_content"
+                  tools:ignore="HardcodedText"/>
+
+        <TextView android:layout_width="match_parent"
+                  style="@style/FarmBlocks.TextStyle.Button.Destructive.Left"
+                  android:text="Button-D-L"
+                  android:layout_height="wrap_content"
+                  tools:ignore="HardcodedText"/>
+
+        <TextView android:layout_width="match_parent"
+                  style="@style/FarmBlocks.TextStyle.Button.Destructive.Center"
+                  android:text="Button-D-C"
+                  android:layout_height="wrap_content"
+                  tools:ignore="HardcodedText"/>
+
+        <TextView android:layout_width="match_parent"
+                  style="@style/FarmBlocks.TextStyle.Button.Destructive.Right"
+                  android:text="Button-D-R"
+                  android:layout_height="wrap_content"
+                  tools:ignore="HardcodedText"/>
+
+        <TextView android:layout_width="match_parent"
+                  style="@style/FarmBlocks.TextStyle.Button.Subtle.Left"
+                  android:text="Button-S-L"
+                  android:layout_height="wrap_content"
+                  tools:ignore="HardcodedText"/>
+
+        <TextView android:layout_width="match_parent"
+                  style="@style/FarmBlocks.TextStyle.Button.Subtle.Center"
+                  android:text="Button-S-C"
+                  android:layout_height="wrap_content"
+                  tools:ignore="HardcodedText"/>
+
+        <TextView android:layout_width="match_parent"
+                  style="@style/FarmBlocks.TextStyle.Button.Subtle.Right"
+                  android:text="Button-S-R"
+                  android:layout_height="wrap_content"
+                  tools:ignore="HardcodedText"/>
+
+        <TextView android:layout_width="match_parent"
+                  style="@style/FarmBlocks.TextStyle.Button.Disabled.Left"
+                  android:text="Button-DIS-L"
+                  android:layout_height="wrap_content"
+                  tools:ignore="HardcodedText"/>
+
+        <TextView android:layout_width="match_parent"
+                  style="@style/FarmBlocks.TextStyle.Button.Disabled.Center"
+                  android:text="Button-DIS-C"
+                  android:layout_height="wrap_content"
+                  tools:ignore="HardcodedText"/>
+
+        <TextView android:layout_width="match_parent"
+                  style="@style/FarmBlocks.TextStyle.Button.Disabled.Right"
+                  android:text="Button-DIS-R"
+                  android:layout_height="wrap_content"
+                  tools:ignore="HardcodedText"/>
+
     </LinearLayout>
 
 </ScrollView>

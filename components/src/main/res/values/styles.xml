@@ -406,4 +406,96 @@
         <item name="android:textAlignment">textEnd</item>
     </style>
 
+    <!--Button Text Styles-->
+
+    <style name="FarmBlocks.TextStyle.Button">
+        <item name="android:textColor">@color/colorText1</item>
+        <item name="android:fontFamily">@font/lato_semibold</item>
+        <item name="android:letterSpacing">0</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:fontWeight"
+              tools:targetApi="o">600
+        </item>
+    </style>
+
+    <style name="FarmBlocks.TextStyle.Button.White">
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+
+    <style name="FarmBlocks.TextStyle.Button.White.Left">
+        <item name="android:textAlignment">textStart</item>
+    </style>
+
+    <style name="FarmBlocks.TextStyle.Button.White.Center">
+        <item name="android:textAlignment">center</item>
+    </style>
+
+    <style name="FarmBlocks.TextStyle.Button.White.Right">
+        <item name="android:textAlignment">textEnd</item>
+    </style>
+
+    <style name="FarmBlocks.TextStyle.Button.Neutral">
+        <item name="android:textColor">@color/colorTextNeutral</item>
+    </style>
+
+    <style name="FarmBlocks.TextStyle.Button.Neutral.Left">
+        <item name="android:textAlignment">textStart</item>
+    </style>
+
+    <style name="FarmBlocks.TextStyle.Button.Neutral.Center">
+        <item name="android:textAlignment">center</item>
+    </style>
+
+    <style name="FarmBlocks.TextStyle.Button.Neutral.Right">
+        <item name="android:textAlignment">textEnd</item>
+    </style>
+
+    <style name="FarmBlocks.TextStyle.Button.Destructive">
+        <item name="android:textColor">@color/colorTextDestructive</item>
+    </style>
+
+    <style name="FarmBlocks.TextStyle.Button.Destructive.Left">
+        <item name="android:textAlignment">textStart</item>
+    </style>
+
+    <style name="FarmBlocks.TextStyle.Button.Destructive.Center">
+        <item name="android:textAlignment">center</item>
+    </style>
+
+    <style name="FarmBlocks.TextStyle.Button.Destructive.Right">
+        <item name="android:textAlignment">textEnd</item>
+    </style>
+
+    <style name="FarmBlocks.TextStyle.Button.Subtle">
+        <item name="android:textColor">@color/colorTextSubtle</item>
+    </style>
+
+    <style name="FarmBlocks.TextStyle.Button.Subtle.Left">
+        <item name="android:textAlignment">textStart</item>
+    </style>
+
+    <style name="FarmBlocks.TextStyle.Button.Subtle.Center">
+        <item name="android:textAlignment">center</item>
+    </style>
+
+    <style name="FarmBlocks.TextStyle.Button.Subtle.Right">
+        <item name="android:textAlignment">textEnd</item>
+    </style>
+
+    <style name="FarmBlocks.TextStyle.Button.Disabled">
+        <item name="android:textColor">@color/colorTextDisabled</item>
+    </style>
+
+    <style name="FarmBlocks.TextStyle.Button.Disabled.Left">
+        <item name="android:textAlignment">textStart</item>
+    </style>
+
+    <style name="FarmBlocks.TextStyle.Button.Disabled.Center">
+        <item name="android:textAlignment">center</item>
+    </style>
+
+    <style name="FarmBlocks.TextStyle.Button.Disabled.Right">
+        <item name="android:textAlignment">textEnd</item>
+    </style>
+
 </resources>
