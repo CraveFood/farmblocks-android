@@ -324,6 +324,41 @@
                   android:layout_height="wrap_content"
                   tools:ignore="HardcodedText"/>
 
+        <TextView android:layout_width="match_parent"
+                  style="@style/FarmBlocks.TextStyle.Subtitle1.Left"
+                  android:text="Subtitle1-L"
+                  android:layout_height="wrap_content"
+                  tools:ignore="HardcodedText"/>
+
+        <TextView android:layout_width="match_parent"
+                  style="@style/FarmBlocks.TextStyle.Subtitle1.Center"
+                  android:text="Subtitle1-C"
+                  android:layout_height="wrap_content"
+                  tools:ignore="HardcodedText"/>
+
+        <TextView android:layout_width="match_parent"
+                  style="@style/FarmBlocks.TextStyle.Subtitle1.Right"
+                  android:text="Subtitle1-R"
+                  android:layout_height="wrap_content"
+                  tools:ignore="HardcodedText"/>
+
+        <TextView android:layout_width="match_parent"
+                  style="@style/FarmBlocks.TextStyle.Subtitle2.Left"
+                  android:text="Subtitle2-L"
+                  android:layout_height="wrap_content"
+                  tools:ignore="HardcodedText"/>
+
+        <TextView android:layout_width="match_parent"
+                  style="@style/FarmBlocks.TextStyle.Subtitle2.Center"
+                  android:text="Subtitle2-C"
+                  android:layout_height="wrap_content"
+                  tools:ignore="HardcodedText"/>
+
+        <TextView android:layout_width="match_parent"
+                  style="@style/FarmBlocks.TextStyle.Subtitle2.Right"
+                  android:text="Subtitle2-R"
+                  android:layout_height="wrap_content"
+                  tools:ignore="HardcodedText"/>
 
     </LinearLayout>
 
