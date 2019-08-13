@@ -509,4 +509,98 @@
               tools:targetApi="o">600
         </item>
     </style>
+
+    <!--Captions Text Styles-->
+
+    <style name="FarmBlocks.TextStyle.Captions">
+        <item name="android:textColor">@color/colorText1</item>
+        <item name="android:fontFamily">@font/lato_semibold</item>
+        <item name="android:letterSpacing">0</item>
+        <item name="android:textSize">13sp</item>
+        <item name="android:fontWeight"
+              tools:targetApi="o">600
+        </item>
+    </style>
+
+    <style name="FarmBlocks.TextStyle.Captions.Featured">
+        <item name="android:textColor">@color/colorTextFeatured</item>
+    </style>
+
+    <style name="FarmBlocks.TextStyle.Captions.Featured.Left">
+        <item name="android:textAlignment">textStart</item>
+    </style>
+
+    <style name="FarmBlocks.TextStyle.Captions.Featured.Center">
+        <item name="android:textAlignment">center</item>
+    </style>
+
+    <style name="FarmBlocks.TextStyle.Captions.Featured.Right">
+        <item name="android:textAlignment">textEnd</item>
+    </style>
+
+    <style name="FarmBlocks.TextStyle.Captions.Bold">
+        <item name="android:textColor">@color/colorText1</item>
+    </style>
+
+    <style name="FarmBlocks.TextStyle.Captions.Bold.Left">
+        <item name="android:textAlignment">textStart</item>
+    </style>
+
+    <style name="FarmBlocks.TextStyle.Captions.Bold.Center">
+        <item name="android:textAlignment">center</item>
+    </style>
+
+    <style name="FarmBlocks.TextStyle.Captions.Bold.Right">
+        <item name="android:textAlignment">textEnd</item>
+    </style>
+
+    <style name="FarmBlocks.TextStyle.Captions.Bold.Negative">
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+
+    <style name="FarmBlocks.TextStyle.Captions.Bold.Negative.Left">
+        <item name="android:textAlignment">textStart</item>
+    </style>
+
+    <style name="FarmBlocks.TextStyle.Captions.Bold.Negative.Center">
+        <item name="android:textAlignment">center</item>
+    </style>
+
+    <style name="FarmBlocks.TextStyle.Captions.Bold.Negative.Right">
+        <item name="android:textAlignment">textEnd</item>
+    </style>
+
+    <style name="FarmBlocks.TextStyle.Captions.Microcopy">
+        <item name="android:fontFamily">@font/lato_regular</item>
+        <item name="android:textColor">@color/colorText2</item>
+    </style>
+
+    <style name="FarmBlocks.TextStyle.Captions.Microcopy.Left">
+        <item name="android:textAlignment">textStart</item>
+    </style>
+
+    <style name="FarmBlocks.TextStyle.Captions.Microcopy.Center">
+        <item name="android:textAlignment">center</item>
+    </style>
+
+    <style name="FarmBlocks.TextStyle.Captions.Microcopy.Right">
+        <item name="android:textAlignment">textEnd</item>
+    </style>
+
+    <style name="FarmBlocks.TextStyle.Captions.Microcopy.Negative">
+        <item name="android:textColor">@color/colorText3</item>
+    </style>
+
+    <style name="FarmBlocks.TextStyle.Captions.Microcopy.Negative.Left">
+        <item name="android:textAlignment">textStart</item>
+    </style>
+
+    <style name="FarmBlocks.TextStyle.Captions.Microcopy.Negative.Center">
+        <item name="android:textAlignment">center</item>
+    </style>
+
+    <style name="FarmBlocks.TextStyle.Captions.Microcopy.Negative.Right">
+        <item name="android:textAlignment">textEnd</item>
+    </style>
+
 </resources>

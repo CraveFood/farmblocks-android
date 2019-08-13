@@ -5,9 +5,11 @@
 
     <color name="colorText1">#2F313A</color>
     <color name="colorText2">#878787</color>
+    <color name="colorText3">#BFFFFFFF</color>
     <color name="colorTextNeutral">#3498DB</color>
     <color name="colorTextDestructive">#DD3311</color>
     <color name="colorTextSubtle">#59636F</color>
     <color name="colorTextDisabled">#D8D8D8</color>
+    <color name="colorTextFeatured">#3498DB</color>
 
 </resources>
