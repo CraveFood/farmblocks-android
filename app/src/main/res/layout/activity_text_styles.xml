@@ -555,6 +555,18 @@
                   android:layout_height="wrap_content"
                   tools:ignore="HardcodedText"/>
 
+        <TextView android:layout_width="match_parent"
+                  style="@style/FarmBlocks.TextStyle.Subhead.Normal"
+                  android:text="Captions-Subhead-Normal"
+                  android:layout_height="wrap_content"
+                  tools:ignore="HardcodedText"/>
+
+        <TextView android:layout_width="match_parent"
+                  style="@style/FarmBlocks.TextStyle.Subhead.Featured"
+                  android:text="Captions-Subhead-Featured"
+                  android:layout_height="wrap_content"
+                  tools:ignore="HardcodedText"/>
+
     </LinearLayout>
 
 </ScrollView>
