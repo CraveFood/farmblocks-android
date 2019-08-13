@@ -623,6 +623,18 @@
                   android:background="#8F000000"
                   tools:ignore="HardcodedText"/>
 
+        <TextView android:layout_width="match_parent"
+                  style="@style/FarmBlocks.TextStyle.InputText"
+                  android:text="InputText"
+                  android:layout_height="wrap_content"
+                  tools:ignore="HardcodedText"/>
+
+        <TextView android:layout_width="match_parent"
+                  style="@style/FarmBlocks.TextStyle.InputText.Disabled"
+                  android:text="InputText-Disabled"
+                  android:layout_height="wrap_content"
+                  tools:ignore="HardcodedText"/>
+
     </LinearLayout>
 
 </ScrollView>
