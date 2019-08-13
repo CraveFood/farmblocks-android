@@ -557,44 +557,70 @@
 
         <TextView android:layout_width="match_parent"
                   style="@style/FarmBlocks.TextStyle.Subhead.Normal"
-                  android:text="Captions-Subhead-Normal"
+                  android:text="Subhead-Normal"
                   android:layout_height="wrap_content"
                   tools:ignore="HardcodedText"/>
 
         <TextView android:layout_width="match_parent"
                   style="@style/FarmBlocks.TextStyle.Subhead.Featured"
-                  android:text="Captions-Subhead-Featured"
+                  android:text="Subhead-Featured"
                   android:layout_height="wrap_content"
                   tools:ignore="HardcodedText"/>
 
         <TextView android:layout_width="match_parent"
                   style="@style/FarmBlocks.TextStyle.DataLabel.Normal"
-                  android:text="Captions-DataLabel-Normal"
+                  android:text="DataLabel-Normal"
                   android:layout_height="wrap_content"
                   tools:ignore="HardcodedText"/>
 
         <TextView android:layout_width="match_parent"
                   style="@style/FarmBlocks.TextStyle.DataLabel.Neutral"
-                  android:text="Captions-DataLabel-Neutral"
+                  android:text="DataLabel-Neutral"
                   android:layout_height="wrap_content"
                   tools:ignore="HardcodedText"/>
 
         <TextView android:layout_width="match_parent"
                   style="@style/FarmBlocks.TextStyle.DataLabel.Featured"
-                  android:text="Captions-DataLabel-Featured"
+                  android:text="DataLabel-Featured"
                   android:layout_height="wrap_content"
                   tools:ignore="HardcodedText"/>
 
         <TextView android:layout_width="match_parent"
                   style="@style/FarmBlocks.TextStyle.DataLabel.Disabled"
-                  android:text="Captions-DataLabel-Disabled"
+                  android:text="DataLabel-Disabled"
                   android:layout_height="wrap_content"
                   tools:ignore="HardcodedText"/>
 
         <TextView android:layout_width="match_parent"
                   style="@style/FarmBlocks.TextStyle.DataLabel.Negative"
-                  android:text="Captions-DataLabel-Negative"
+                  android:text="DataLabel-Negative"
                   android:layout_height="wrap_content"
+                  tools:ignore="HardcodedText"/>
+
+        <TextView android:layout_width="match_parent"
+                  style="@style/FarmBlocks.TextStyle.Header.Heading"
+                  android:text="Header-Heading"
+                  android:layout_height="wrap_content"
+                  tools:ignore="HardcodedText"/>
+
+        <TextView android:layout_width="match_parent"
+                  style="@style/FarmBlocks.TextStyle.Header.SmallHeading"
+                  android:text="Header-SmallHeading"
+                  android:layout_height="wrap_content"
+                  tools:ignore="HardcodedText"/>
+
+        <TextView android:layout_width="match_parent"
+                  style="@style/FarmBlocks.TextStyle.Header.Negative.Heading"
+                  android:text="Header-Negative-Heading"
+                  android:background="#8F000000"
+                  android:layout_height="wrap_content"
+                  tools:ignore="HardcodedText"/>
+
+        <TextView android:layout_width="match_parent"
+                  style="@style/FarmBlocks.TextStyle.Header.Negative.SmallHeading"
+                  android:text="Header-Negative-SmallHeading"
+                  android:layout_height="wrap_content"
+                  android:background="#8F000000"
                   tools:ignore="HardcodedText"/>
 
     </LinearLayout>

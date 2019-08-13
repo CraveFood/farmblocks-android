@@ -603,6 +603,52 @@
         <item name="android:textAlignment">textEnd</item>
     </style>
 
+    <!--Header Text Styles-->
+
+    <style name="FarmBlocks.TextStyle.Header"/>
+
+    <style name="FarmBlocks.TextStyle.Header.Heading">
+        <item name="android:textColor">@color/colorText1</item>
+        <item name="android:fontFamily">@font/lato_semibold</item>
+        <item name="android:letterSpacing">0</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:fontWeight"
+              tools:targetApi="o">600
+        </item>
+    </style>
+
+    <style name="FarmBlocks.TextStyle.Header.SmallHeading">
+        <item name="android:textColor">@color/colorText1</item>
+        <item name="android:fontFamily">@font/lato_semibold</item>
+        <item name="android:letterSpacing">0</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:fontWeight"
+              tools:targetApi="o">600
+        </item>
+    </style>
+
+    <style name="FarmBlocks.TextStyle.Header.Negative"/>
+
+    <style name="FarmBlocks.TextStyle.Header.Negative.Heading">
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:fontFamily">@font/lato_semibold</item>
+        <item name="android:letterSpacing">0</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:fontWeight"
+              tools:targetApi="o">600
+        </item>
+    </style>
+
+    <style name="FarmBlocks.TextStyle.Header.Negative.SmallHeading">
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:fontFamily">@font/lato_semibold</item>
+        <item name="android:letterSpacing">0</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:fontWeight"
+              tools:targetApi="o">600
+        </item>
+    </style>
+
     <!--Subhead Text Styles-->
 
     <style name="FarmBlocks.TextStyle.Subhead"/>
