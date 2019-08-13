@@ -742,5 +742,29 @@
         <item name="android:textColor">@color/colorText2</item>
     </style>
 
+    <!--Input Label Text Styles-->
+
+    <style name="FarmBlocks.TextStyle.InputMinLabel">
+        <item name="android:textColor">@color/colorText2</item>
+        <item name="android:fontFamily">@font/lato_regular</item>
+        <item name="android:letterSpacing">0</item>
+        <item name="android:textSize">12sp</item>
+    </style>
+
+    <style name="FarmBlocks.TextStyle.InputMinLabel.Disabled">
+        <item name="android:textColor">@color/colorTextDestructive</item>
+    </style>
+
+    <style name="FarmBlocks.TextStyle.InputNormalLabel">
+        <item name="android:textColor">@color/colorText1</item>
+        <item name="android:fontFamily">@font/lato_semibold</item>
+        <item name="android:letterSpacing">0</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="FarmBlocks.TextStyle.InputNormalLabel.Disabled">
+        <item name="android:textColor">@color/colorText2</item>
+    </style>
+
 
 </resources>

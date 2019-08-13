@@ -635,6 +635,29 @@
                   android:layout_height="wrap_content"
                   tools:ignore="HardcodedText"/>
 
+        <TextView android:layout_width="match_parent"
+                  style="@style/FarmBlocks.TextStyle.InputMinLabel"
+                  android:text="InputMinLabel"
+                  android:layout_height="wrap_content"/>
+
+        <TextView android:layout_width="match_parent"
+                  style="@style/FarmBlocks.TextStyle.InputMinLabel.Disabled"
+                  android:text="InputMinLabel-Disabled"
+                  android:layout_height="wrap_content"
+                  tools:ignore="HardcodedText"/>
+
+
+        <TextView android:layout_width="match_parent"
+                  style="@style/FarmBlocks.TextStyle.InputNormalLabel"
+                  android:text="InputNormalLabel"
+                  android:layout_height="wrap_content"/>
+
+        <TextView android:layout_width="match_parent"
+                  style="@style/FarmBlocks.TextStyle.InputNormalLabel.Disabled"
+                  android:text="InputNormalLabel-Disabled"
+                  android:layout_height="wrap_content"
+                  tools:ignore="HardcodedText"/>
+
     </LinearLayout>
 
 </ScrollView>
