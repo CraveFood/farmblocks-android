@@ -627,5 +627,60 @@
         </item>
     </style>
 
+    <!--Data Label Text Styles-->
+
+    <style name="FarmBlocks.TextStyle.DataLabel"/>
+
+    <style name="FarmBlocks.TextStyle.DataLabel.Normal">
+        <item name="android:textColor">@color/colorText1</item>
+        <item name="android:fontFamily">@font/lato_semibold</item>
+        <item name="android:letterSpacing">0</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textAlignment">textEnd</item>
+        <item name="android:fontWeight"
+              tools:targetApi="o">600
+        </item>
+    </style>
+
+    <style name="FarmBlocks.TextStyle.DataLabel.Neutral">
+        <item name="android:textColor">@color/colorText1</item>
+        <item name="android:fontFamily">@font/lato_regular</item>
+        <item name="android:letterSpacing">0</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textAlignment">textEnd</item>
+    </style>
+
+    <style name="FarmBlocks.TextStyle.DataLabel.Featured">
+        <item name="android:textColor">@color/colorTextFeatured</item>
+        <item name="android:fontFamily">@font/lato_semibold</item>
+        <item name="android:letterSpacing">0</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textAlignment">textEnd</item>
+        <item name="android:fontWeight"
+              tools:targetApi="o">600
+        </item>
+    </style>
+
+    <style name="FarmBlocks.TextStyle.DataLabel.Disabled">
+        <item name="android:textColor">@color/colorText2</item>
+        <item name="android:fontFamily">@font/lato_semibold</item>
+        <item name="android:letterSpacing">0</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textAlignment">textEnd</item>
+        <item name="android:fontWeight"
+              tools:targetApi="o">600
+        </item>
+    </style>
+
+    <style name="FarmBlocks.TextStyle.DataLabel.Negative">
+        <item name="android:textColor">@color/colorTextDestructive</item>
+        <item name="android:fontFamily">@font/lato_semibold</item>
+        <item name="android:letterSpacing">0</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textAlignment">textEnd</item>
+        <item name="android:fontWeight"
+              tools:targetApi="o">600
+        </item>
+    </style>
 
 </resources>

@@ -567,6 +567,36 @@
                   android:layout_height="wrap_content"
                   tools:ignore="HardcodedText"/>
 
+        <TextView android:layout_width="match_parent"
+                  style="@style/FarmBlocks.TextStyle.DataLabel.Normal"
+                  android:text="Captions-DataLabel-Normal"
+                  android:layout_height="wrap_content"
+                  tools:ignore="HardcodedText"/>
+
+        <TextView android:layout_width="match_parent"
+                  style="@style/FarmBlocks.TextStyle.DataLabel.Neutral"
+                  android:text="Captions-DataLabel-Neutral"
+                  android:layout_height="wrap_content"
+                  tools:ignore="HardcodedText"/>
+
+        <TextView android:layout_width="match_parent"
+                  style="@style/FarmBlocks.TextStyle.DataLabel.Featured"
+                  android:text="Captions-DataLabel-Featured"
+                  android:layout_height="wrap_content"
+                  tools:ignore="HardcodedText"/>
+
+        <TextView android:layout_width="match_parent"
+                  style="@style/FarmBlocks.TextStyle.DataLabel.Disabled"
+                  android:text="Captions-DataLabel-Disabled"
+                  android:layout_height="wrap_content"
+                  tools:ignore="HardcodedText"/>
+
+        <TextView android:layout_width="match_parent"
+                  style="@style/FarmBlocks.TextStyle.DataLabel.Negative"
+                  android:text="Captions-DataLabel-Negative"
+                  android:layout_height="wrap_content"
+                  tools:ignore="HardcodedText"/>
+
     </LinearLayout>
 
 </ScrollView>
