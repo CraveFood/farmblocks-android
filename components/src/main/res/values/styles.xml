@@ -802,4 +802,64 @@
         <item name="android:textColor">@android:color/white</item>
     </style>
 
+    <!--Status Caption Text Styles-->
+
+    <style name="FarmBlocks.TextStyle.StatusCaption">
+        <item name="android:textColor">@color/colorText2</item>
+        <item name="android:fontFamily">@font/lato_semibold</item>
+        <item name="android:letterSpacing">0</item>
+        <item name="android:textSize">13sp</item>
+        <item name="android:fontWeight"
+              tools:targetApi="o">600
+        </item>
+    </style>
+
+    <style name="FarmBlocks.TextStyle.StatusCaption.Neutral">
+        <item name="android:textColor">@color/colorText2</item>
+    </style>
+
+    <style name="FarmBlocks.TextStyle.StatusCaption.Neutral.Left">
+        <item name="android:textAlignment">textStart</item>
+    </style>
+
+    <style name="FarmBlocks.TextStyle.StatusCaption.Neutral.Center">
+        <item name="android:textAlignment">center</item>
+    </style>
+
+    <style name="FarmBlocks.TextStyle.StatusCaption.Neutral.Right">
+        <item name="android:textAlignment">textEnd</item>
+    </style>
+
+    <style name="FarmBlocks.TextStyle.StatusCaption.Positive">
+        <item name="android:textColor">#2ECC71</item>
+    </style>
+
+    <style name="FarmBlocks.TextStyle.StatusCaption.Positive.Left">
+        <item name="android:textAlignment">textStart</item>
+    </style>
+
+    <style name="FarmBlocks.TextStyle.StatusCaption.Positive.Center">
+        <item name="android:textAlignment">center</item>
+    </style>
+
+    <style name="FarmBlocks.TextStyle.StatusCaption.Positive.Right">
+        <item name="android:textAlignment">textEnd</item>
+    </style>
+
+    <style name="FarmBlocks.TextStyle.StatusCaption.Negative">
+        <item name="android:textColor">@color/colorTextDestructive</item>
+    </style>
+
+    <style name="FarmBlocks.TextStyle.StatusCaption.Negative.Left">
+        <item name="android:textAlignment">textStart</item>
+    </style>
+
+    <style name="FarmBlocks.TextStyle.StatusCaption.Negative.Center">
+        <item name="android:textAlignment">center</item>
+    </style>
+
+    <style name="FarmBlocks.TextStyle.StatusCaption.Negative.Right">
+        <item name="android:textAlignment">textEnd</item>
+    </style>
+
 </resources>

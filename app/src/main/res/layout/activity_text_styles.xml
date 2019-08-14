@@ -684,6 +684,61 @@
         <TextView android:layout_width="match_parent"
                   style="@style/FarmBlocks.TextStyle.AlertText.Negative"
                   android:text="AlertText-Negative"
+                  android:background="#8F000000"
+                  android:layout_height="wrap_content"
+                  tools:ignore="HardcodedText"/>
+
+        <TextView android:layout_width="match_parent"
+                  style="@style/FarmBlocks.TextStyle.StatusCaption.Neutral.Left"
+                  android:text="StatusCaption-Neutral-L"
+                  android:layout_height="wrap_content"
+                  tools:ignore="HardcodedText"/>
+
+        <TextView android:layout_width="match_parent"
+                  style="@style/FarmBlocks.TextStyle.StatusCaption.Neutral.Center"
+                  android:text="StatusCaption-Neutral-C"
+                  android:layout_height="wrap_content"
+                  tools:ignore="HardcodedText"/>
+
+        <TextView android:layout_width="match_parent"
+                  style="@style/FarmBlocks.TextStyle.StatusCaption.Neutral.Right"
+                  android:text="StatusCaption-Neutral-R"
+                  android:layout_height="wrap_content"
+                  tools:ignore="HardcodedText"/>
+
+        <TextView android:layout_width="match_parent"
+                  style="@style/FarmBlocks.TextStyle.StatusCaption.Positive.Left"
+                  android:text="StatusCaption-Positive-L"
+                  android:layout_height="wrap_content"
+                  tools:ignore="HardcodedText"/>
+
+        <TextView android:layout_width="match_parent"
+                  style="@style/FarmBlocks.TextStyle.StatusCaption.Positive.Center"
+                  android:text="StatusCaption-Positive-C"
+                  android:layout_height="wrap_content"
+                  tools:ignore="HardcodedText"/>
+
+        <TextView android:layout_width="match_parent"
+                  style="@style/FarmBlocks.TextStyle.StatusCaption.Positive.Right"
+                  android:text="StatusCaption-Positive-R"
+                  android:layout_height="wrap_content"
+                  tools:ignore="HardcodedText"/>
+
+        <TextView android:layout_width="match_parent"
+                  style="@style/FarmBlocks.TextStyle.StatusCaption.Negative.Left"
+                  android:text="StatusCaption-Negative-L"
+                  android:layout_height="wrap_content"
+                  tools:ignore="HardcodedText"/>
+
+        <TextView android:layout_width="match_parent"
+                  style="@style/FarmBlocks.TextStyle.StatusCaption.Negative.Center"
+                  android:text="StatusCaption-Negative-C"
+                  android:layout_height="wrap_content"
+                  tools:ignore="HardcodedText"/>
+
+        <TextView android:layout_width="match_parent"
+                  style="@style/FarmBlocks.TextStyle.StatusCaption.Negative.Right"
+                  android:text="StatusCaption-Negative-R"
                   android:layout_height="wrap_content"
                   tools:ignore="HardcodedText"/>
 
