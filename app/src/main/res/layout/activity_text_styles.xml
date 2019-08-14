@@ -675,6 +675,18 @@
                   android:layout_height="wrap_content"
                   tools:ignore="HardcodedText"/>
 
+        <TextView android:layout_width="match_parent"
+                  style="@style/FarmBlocks.TextStyle.AlertText"
+                  android:text="AlertText"
+                  android:layout_height="wrap_content"
+                  tools:ignore="HardcodedText"/>
+
+        <TextView android:layout_width="match_parent"
+                  style="@style/FarmBlocks.TextStyle.AlertText.Negative"
+                  android:text="AlertText-Negative"
+                  android:layout_height="wrap_content"
+                  tools:ignore="HardcodedText"/>
+
     </LinearLayout>
 
 </ScrollView>
