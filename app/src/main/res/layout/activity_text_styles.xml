@@ -646,7 +646,6 @@
                   android:layout_height="wrap_content"
                   tools:ignore="HardcodedText"/>
 
-
         <TextView android:layout_width="match_parent"
                   style="@style/FarmBlocks.TextStyle.InputNormalLabel"
                   android:text="InputNormalLabel"
@@ -655,6 +654,24 @@
         <TextView android:layout_width="match_parent"
                   style="@style/FarmBlocks.TextStyle.InputNormalLabel.Disabled"
                   android:text="InputNormalLabel-Disabled"
+                  android:layout_height="wrap_content"
+                  tools:ignore="HardcodedText"/>
+
+        <TextView android:layout_width="match_parent"
+                  style="@style/FarmBlocks.TextStyle.NavLabel"
+                  android:text="NavLabel"
+                  android:layout_height="wrap_content"
+                  tools:ignore="HardcodedText"/>
+
+        <TextView android:layout_width="match_parent"
+                  style="@style/FarmBlocks.TextStyle.NavLabel.Selected"
+                  android:text="NavLabel-Selected"
+                  android:layout_height="wrap_content"
+                  tools:ignore="HardcodedText"/>
+
+        <TextView android:layout_width="match_parent"
+                  style="@style/FarmBlocks.TextStyle.BottomNavLabel"
+                  android:text="BottomNavLabel"
                   android:layout_height="wrap_content"
                   tools:ignore="HardcodedText"/>
 
