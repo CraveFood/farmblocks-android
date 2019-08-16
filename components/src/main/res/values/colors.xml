@@ -14,4 +14,9 @@
 	<color name="colorTextRed">#DD3311</color>
 	<color name="colorTextGreen">#2ECC71</color>
 
+	<color name="colorTextButtonWhite">#FFFFFF</color>
+	<color name="colorTextButtonBlue">#3498DB</color>
+	<color name="colorBackgroundButtonDisabled">#59000000</color>
+	<color name="colorBackgroundButtonNeutral">#3498DB</color>
+
 </resources>
