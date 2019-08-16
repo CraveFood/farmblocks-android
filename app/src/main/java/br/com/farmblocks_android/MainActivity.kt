@@ -7,12 +7,16 @@ import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : AppCompatActivity() {
 
-    override fun onCreate(savedInstanceState: Bundle?) {
-        super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_main)
+	override fun onCreate(savedInstanceState: Bundle?) {
+		super.onCreate(savedInstanceState)
+		setContentView(R.layout.activity_main)
 
-        textViewTextStyles.setOnClickListener {
-            startActivity(Intent(this, TextStylesActivity::class.java))
-        }
-    }
+		textViewTextStyles.setOnClickListener {
+			startActivity(Intent(this, TextStylesActivity::class.java))
+		}
+
+		textViewButton.setOnClickListener {
+			startActivity(Intent(this, ButtonsActivity::class.java))
+		}
+	}
 }
