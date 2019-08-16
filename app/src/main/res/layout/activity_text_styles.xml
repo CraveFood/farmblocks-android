@@ -151,35 +151,35 @@
 			android:layout_width="match_parent"
 			android:layout_height="wrap_content"
 			android:background="#8F000000"
-			android:text="Button-W"
+			android:text="Button-White"
 			tools:ignore="HardcodedText" />
 
 		<TextView
 			style="@style/FarmBlocks.TextStyle.Button.Neutral"
 			android:layout_width="match_parent"
 			android:layout_height="wrap_content"
-			android:text="Button-N"
+			android:text="Button-Neutral"
 			tools:ignore="HardcodedText" />
 
 		<TextView
 			style="@style/FarmBlocks.TextStyle.Button.Destructive"
 			android:layout_width="match_parent"
 			android:layout_height="wrap_content"
-			android:text="Button-D"
+			android:text="Button-Destructive"
 			tools:ignore="HardcodedText" />
 
 		<TextView
 			style="@style/FarmBlocks.TextStyle.Button.Subtle"
 			android:layout_width="match_parent"
 			android:layout_height="wrap_content"
-			android:text="Button-S"
+			android:text="Button-Subtle"
 			tools:ignore="HardcodedText" />
 
 		<TextView
 			style="@style/FarmBlocks.TextStyle.Button.Disabled"
 			android:layout_width="match_parent"
 			android:layout_height="wrap_content"
-			android:text="Button-DIS"
+			android:text="Button-Disabled"
 			tools:ignore="HardcodedText" />
 
 		<TextView
@@ -378,7 +378,7 @@
 			android:layout_width="match_parent"
 			android:layout_height="wrap_content"
 			android:background="#8F000000"
-			android:text="AlertText-Negative"
+			android:text="AlertText-N"
 			tools:ignore="HardcodedText" />
 
 		<TextView
