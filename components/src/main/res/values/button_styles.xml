@@ -1,14 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-	<style name="FarmBlocks.Button">
-		<item name="android:textAppearance">@style/FarmBlocks.TextStyle.Button.White</item>
-		<item name="android:foreground">?android:attr/selectableItemBackground</item>
+	<style name="FarmBlocks.Button" parent="Widget.MaterialComponents.Button">
+		<item name="android:textAppearance">@style/FarmBlocks.TextStyle.Button</item>
 		<item name="android:background">@drawable/button_shape_background</item>
 		<item name="android:layout_width">wrap_content</item>
-		<item name="android:layout_height">50dp</item>
+		<item name="android:layout_height">56dp</item>
 		<item name="android:paddingStart">24dp</item>
 		<item name="android:paddingEnd">24dp</item>
+		<item name="android:elevation">2dp</item>
+		<item name="android:textAllCaps">false</item>
 	</style>
 
 	<style name="FarmBlocks.Button.Primary">
