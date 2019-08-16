@@ -12,18 +12,18 @@
 	</style>
 
 	<style name="FarmBlocks.Button.Primary">
-		<item name="backgroundTint">@color/color_button_primary_background</item>
-		<item name="android:textColor">@color/color_button_primary_text</item>
+		<item name="backgroundTint">@color/button_primary_background</item>
+		<item name="android:textColor">@color/button_primary_text</item>
 	</style>
 
 	<style name="FarmBlocks.Button.Neutral">
-		<item name="backgroundTint">@color/color_button_neutral_background</item>
-		<item name="android:textColor">@color/color_button_neutral_text</item>
+		<item name="backgroundTint">@color/button_neutral_background</item>
+		<item name="android:textColor">@color/button_neutral_text</item>
 	</style>
 
 	<style name="FarmBlocks.Button.White">
-		<item name="backgroundTint">@color/color_button_white_background</item>
-		<item name="android:textColor">@color/color_button_white_text</item>
+		<item name="backgroundTint">@color/button_white_background</item>
+		<item name="android:textColor">@color/button_white_text</item>
 	</style>
 
 </resources>
