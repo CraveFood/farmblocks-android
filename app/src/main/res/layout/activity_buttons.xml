@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:gravity="center"
+	android:orientation="vertical"
+	tools:context=".ButtonsActivity">
+
+	<Button
+		style="@style/FarmBlocks.Button.Primary"
+		android:layout_margin="8dp"
+		android:text="Primary Button"
+		tools:ignore="HardcodedText" />
+
+	<Button
+		style="@style/FarmBlocks.Button.Neutral"
+		android:layout_margin="8dp"
+		android:text="Neutral Button"
+		tools:ignore="HardcodedText" />
+
+	<Button
+		style="@style/FarmBlocks.Button.White"
+		android:layout_margin="8dp"
+		android:text="White Button"
+		tools:ignore="HardcodedText" />
+
+	<Button
+		style="@style/FarmBlocks.Button.Primary"
+		android:layout_margin="8dp"
+		android:enabled="false"
+		android:text="Primary Button Disabled"
+		tools:ignore="HardcodedText" />
+
+</LinearLayout>
