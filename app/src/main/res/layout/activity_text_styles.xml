@@ -1,0 +1,407 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	tools:context=".TextStylesActivity">
+
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:orientation="vertical"
+		android:padding="16dp">
+
+		<TextView
+			style="@style/FarmBlocks.TextStyle.H1"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:text="H1"
+			tools:ignore="HardcodedText" />
+
+		<TextView
+			style="@style/FarmBlocks.TextStyle.H2"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:text="H2"
+			tools:ignore="HardcodedText" />
+
+		<TextView
+			style="@style/FarmBlocks.TextStyle.H3"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:text="H3"
+			tools:ignore="HardcodedText" />
+
+		<TextView
+			style="@style/FarmBlocks.TextStyle.H4"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:text="H4"
+			tools:ignore="HardcodedText" />
+
+		<TextView
+			style="@style/FarmBlocks.TextStyle.H5"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:text="H5"
+			tools:ignore="HardcodedText" />
+
+		<TextView
+			style="@style/FarmBlocks.TextStyle.H6"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:text="H6"
+			tools:ignore="HardcodedText" />
+
+		<TextView
+			style="@style/FarmBlocks.TextStyle.H1.Negative"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:background="#8F000000"
+			android:text="H1-N"
+			tools:ignore="HardcodedText" />
+
+		<TextView
+			style="@style/FarmBlocks.TextStyle.H2.Negative"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:background="#8F000000"
+			android:text="H2-N"
+			tools:ignore="HardcodedText" />
+
+		<TextView
+			style="@style/FarmBlocks.TextStyle.H3.Negative"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:background="#8F000000"
+			android:text="H3-N"
+			tools:ignore="HardcodedText" />
+
+		<TextView
+			style="@style/FarmBlocks.TextStyle.H4.Negative"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:background="#8F000000"
+			android:text="H4-N"
+			tools:ignore="HardcodedText" />
+
+		<TextView
+			style="@style/FarmBlocks.TextStyle.H5.Negative"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:background="#8F000000"
+			android:text="H5-N"
+			tools:ignore="HardcodedText" />
+
+		<TextView
+			style="@style/FarmBlocks.TextStyle.H6.Negative"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:background="#8F000000"
+			android:text="H6-N"
+			tools:ignore="HardcodedText" />
+
+		<TextView
+			style="@style/FarmBlocks.TextStyle.Body1"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:text="Body1"
+			tools:ignore="HardcodedText" />
+
+		<TextView
+			style="@style/FarmBlocks.TextStyle.Body2"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:text="Body2"
+			tools:ignore="HardcodedText" />
+
+		<TextView
+			style="@style/FarmBlocks.TextStyle.Body1.Negative"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:background="#8F000000"
+			android:text="Body1-N"
+			tools:ignore="HardcodedText" />
+
+		<TextView
+			style="@style/FarmBlocks.TextStyle.Body2.Negative"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:background="#8F000000"
+			android:text="Body2-N"
+			tools:ignore="HardcodedText" />
+
+		<TextView
+			style="@style/FarmBlocks.TextStyle.Subtitle1"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:text="Subtitle1"
+			tools:ignore="HardcodedText" />
+
+		<TextView
+			style="@style/FarmBlocks.TextStyle.Subtitle2"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:text="Subtitle2"
+			tools:ignore="HardcodedText" />
+
+		<TextView
+			style="@style/FarmBlocks.TextStyle.Button.White"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:background="#8F000000"
+			android:text="Button-White"
+			tools:ignore="HardcodedText" />
+
+		<TextView
+			style="@style/FarmBlocks.TextStyle.Button.Neutral"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:text="Button-Neutral"
+			tools:ignore="HardcodedText" />
+
+		<TextView
+			style="@style/FarmBlocks.TextStyle.Button.Destructive"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:text="Button-Destructive"
+			tools:ignore="HardcodedText" />
+
+		<TextView
+			style="@style/FarmBlocks.TextStyle.Button.Subtle"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:text="Button-Subtle"
+			tools:ignore="HardcodedText" />
+
+		<TextView
+			style="@style/FarmBlocks.TextStyle.Button.Disabled"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:text="Button-Disabled"
+			tools:ignore="HardcodedText" />
+
+		<TextView
+			style="@style/FarmBlocks.TextStyle.Overline"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:text="Overline"
+			tools:ignore="HardcodedText" />
+
+		<TextView
+			style="@style/FarmBlocks.TextStyle.Captions.Featured"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:text="Captions-Featured"
+			tools:ignore="HardcodedText" />
+
+		<TextView
+			style="@style/FarmBlocks.TextStyle.Captions.Bold"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:text="Captions-Bold"
+			tools:ignore="HardcodedText" />
+
+		<TextView
+			style="@style/FarmBlocks.TextStyle.Captions.Bold.Negative"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:background="#8F000000"
+			android:text="Captions-Bold-N"
+			tools:ignore="HardcodedText" />
+
+		<TextView
+			style="@style/FarmBlocks.TextStyle.Captions.Microcopy"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:text="Captions-Microcopy"
+			tools:ignore="HardcodedText" />
+
+		<TextView
+			style="@style/FarmBlocks.TextStyle.Captions.Microcopy.Negative"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:background="#8F000000"
+			android:text="Captions-Microcopy-N"
+			tools:ignore="HardcodedText" />
+
+		<TextView
+			style="@style/FarmBlocks.TextStyle.Subhead.Normal"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:text="Subhead-Normal"
+			tools:ignore="HardcodedText" />
+
+		<TextView
+			style="@style/FarmBlocks.TextStyle.Subhead.Featured"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:text="Subhead-Featured"
+			tools:ignore="HardcodedText" />
+
+		<TextView
+			style="@style/FarmBlocks.TextStyle.DataLabel.Normal"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:text="DataLabel-Normal"
+			tools:ignore="HardcodedText" />
+
+		<TextView
+			style="@style/FarmBlocks.TextStyle.DataLabel.Neutral"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:text="DataLabel-Neutral"
+			tools:ignore="HardcodedText" />
+
+		<TextView
+			style="@style/FarmBlocks.TextStyle.DataLabel.Featured"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:text="DataLabel-Featured"
+			tools:ignore="HardcodedText" />
+
+		<TextView
+			style="@style/FarmBlocks.TextStyle.DataLabel.Disabled"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:text="DataLabel-Disabled"
+			tools:ignore="HardcodedText" />
+
+		<TextView
+			style="@style/FarmBlocks.TextStyle.DataLabel.Negative"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:text="DataLabel-Negative"
+			tools:ignore="HardcodedText" />
+
+		<TextView
+			style="@style/FarmBlocks.TextStyle.Header.Heading"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:text="Header-Heading"
+			tools:ignore="HardcodedText" />
+
+		<TextView
+			style="@style/FarmBlocks.TextStyle.Header.SmallHeading"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:text="Header-SmallHeading"
+			tools:ignore="HardcodedText" />
+
+		<TextView
+			style="@style/FarmBlocks.TextStyle.Header.Negative.Heading"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:background="#8F000000"
+			android:text="Header-Negative-Heading"
+			tools:ignore="HardcodedText" />
+
+		<TextView
+			style="@style/FarmBlocks.TextStyle.Header.Negative.SmallHeading"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:background="#8F000000"
+			android:text="Header-Negative-SmallHeading"
+			tools:ignore="HardcodedText" />
+
+		<TextView
+			style="@style/FarmBlocks.TextStyle.InputText"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:text="InputText"
+			tools:ignore="HardcodedText" />
+
+		<TextView
+			style="@style/FarmBlocks.TextStyle.InputText.Disabled"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:text="InputText-Disabled"
+			tools:ignore="HardcodedText" />
+
+		<TextView
+			style="@style/FarmBlocks.TextStyle.InputMinLabel"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:text="InputMinLabel" />
+
+		<TextView
+			style="@style/FarmBlocks.TextStyle.InputMinLabel.Disabled"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:text="InputMinLabel-Disabled"
+			tools:ignore="HardcodedText" />
+
+		<TextView
+			style="@style/FarmBlocks.TextStyle.InputNormalLabel"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:text="InputNormalLabel" />
+
+		<TextView
+			style="@style/FarmBlocks.TextStyle.InputNormalLabel.Disabled"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:text="InputNormalLabel-Disabled"
+			tools:ignore="HardcodedText" />
+
+		<TextView
+			style="@style/FarmBlocks.TextStyle.NavLabel"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:text="NavLabel"
+			tools:ignore="HardcodedText" />
+
+		<TextView
+			style="@style/FarmBlocks.TextStyle.NavLabel.Selected"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:text="NavLabel-Selected"
+			tools:ignore="HardcodedText" />
+
+		<TextView
+			style="@style/FarmBlocks.TextStyle.BottomNavLabel"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:text="BottomNavLabel"
+			tools:ignore="HardcodedText" />
+
+		<TextView
+			style="@style/FarmBlocks.TextStyle.AlertText"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:text="AlertText"
+			tools:ignore="HardcodedText" />
+
+		<TextView
+			style="@style/FarmBlocks.TextStyle.AlertText.Negative"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:background="#8F000000"
+			android:text="AlertText-N"
+			tools:ignore="HardcodedText" />
+
+		<TextView
+			style="@style/FarmBlocks.TextStyle.StatusCaption.Neutral"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:text="StatusCaption-Neutral"
+			tools:ignore="HardcodedText" />
+
+		<TextView
+			style="@style/FarmBlocks.TextStyle.StatusCaption.Positive"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:text="StatusCaption-Positive"
+			tools:ignore="HardcodedText" />
+
+		<TextView
+			style="@style/FarmBlocks.TextStyle.StatusCaption.Negative"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:text="StatusCaption-Negative"
+			tools:ignore="HardcodedText" />
+
+	</LinearLayout>
+
+</ScrollView>
