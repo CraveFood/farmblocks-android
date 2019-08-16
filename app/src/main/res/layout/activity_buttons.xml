@@ -33,4 +33,14 @@
 		android:text="Primary Button Disabled"
 		tools:ignore="HardcodedText" />
 
+	<com.google.android.material.floatingactionbutton.FloatingActionButton
+		style="@style/FarmBlocks.FloatingActionButton"
+		android:layout_margin="8dp"
+		android:src="@drawable/ic_edit" />
+
+	<com.google.android.material.floatingactionbutton.FloatingActionButton
+		style="@style/FarmBlocks.FloatingActionButton.Small"
+		android:layout_margin="8dp"
+		android:src="@drawable/ic_edit" />
+
 </LinearLayout>
