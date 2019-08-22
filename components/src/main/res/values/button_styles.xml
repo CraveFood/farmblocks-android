@@ -3,9 +3,9 @@
 
 	<style name="FarmBlocks.Button" parent="Widget.MaterialComponents.Button">
 		<item name="android:textAppearance">@style/FarmBlocks.TextStyle.Button</item>
-		<item name="android:background">@drawable/button_shape_background</item>
+		<item name="android:background">@drawable/button_ripple_background</item>
 		<item name="android:layout_width">wrap_content</item>
-		<item name="android:layout_height">56dp</item>
+		<item name="android:layout_height">50dp</item>
 		<item name="android:paddingStart">24dp</item>
 		<item name="android:paddingEnd">24dp</item>
 		<item name="android:elevation">2dp</item>
@@ -41,6 +41,33 @@
 		<item name="android:layout_height">40dp</item>
 		<item name="maxImageSize">16dp</item>
 		<item name="fabSize">mini</item>
+	</style>
+
+	<style name="FarmBlocks.ButtonFlat" parent="Widget.MaterialComponents.Button">
+		<item name="android:textAppearance">@style/FarmBlocks.TextStyle.Button</item>
+		<item name="android:textSize">14sp</item>
+		<item name="android:background">@drawable/button_flat_ripple_background</item>
+		<item name="android:layout_width">wrap_content</item>
+		<item name="android:layout_height">32dp</item>
+		<item name="android:paddingStart">16dp</item>
+		<item name="android:paddingEnd">16dp</item>
+		<item name="android:elevation">0dp</item>
+		<item name="android:textAllCaps">false</item>
+	</style>
+
+	<style name="FarmBlocks.ButtonFlat.Primary">
+		<item name="backgroundTint">@color/button_primary_background</item>
+		<item name="android:textColor">@color/button_primary_text</item>
+	</style>
+
+	<style name="FarmBlocks.ButtonFlat.Neutral">
+		<item name="backgroundTint">@color/button_neutral_background</item>
+		<item name="android:textColor">@color/button_neutral_text</item>
+	</style>
+
+	<style name="FarmBlocks.ButtonFlat.White">
+		<item name="backgroundTint">@color/button_white_background</item>
+		<item name="android:textColor">@color/button_white_text</item>
 	</style>
 
 </resources>
