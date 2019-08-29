@@ -28,6 +28,12 @@
 		<Button
 			style="@style/FarmBlocks.Button.Neutral"
 			android:layout_margin="8dp"
+			android:text="Neutral Button"
+			tools:ignore="HardcodedText" />
+
+		<Button
+			style="@style/FarmBlocks.Button.White"
+			android:layout_margin="8dp"
 			android:text="White Button"
 			tools:ignore="HardcodedText" />
 
@@ -48,6 +54,12 @@
 			style="@style/FarmBlocks.ButtonFlat.Secondary"
 			android:layout_margin="8dp"
 			android:text="Secondary Flat Button"
+			tools:ignore="HardcodedText" />
+
+		<Button
+			style="@style/FarmBlocks.ButtonFlat.Neutral"
+			android:layout_margin="8dp"
+			android:text="Neutral Flat Button"
 			tools:ignore="HardcodedText" />
 
 		<Button

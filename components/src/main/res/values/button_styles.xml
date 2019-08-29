@@ -27,6 +27,11 @@
 		<item name="android:textColor">@color/button_neutral_text</item>
 	</style>
 
+	<style name="FarmBlocks.Button.White">
+		<item name="backgroundTint">@color/button_white_background</item>
+		<item name="android:textColor">@color/button_white_text</item>
+	</style>
+
 	<style name="FarmBlocks.FloatingActionButton" parent="Widget.MaterialComponents.FloatingActionButton">
 		<item name="android:layout_width">56dp</item>
 		<item name="android:layout_height">56dp</item>
@@ -65,9 +70,14 @@
 		<item name="android:textColor">@color/button_secondary_text</item>
 	</style>
 
-	<style name="FarmBlocks.ButtonFlat.White">
+	<style name="FarmBlocks.ButtonFlat.Neutral">
 		<item name="backgroundTint">@color/button_neutral_background</item>
 		<item name="android:textColor">@color/button_neutral_text</item>
+	</style>
+
+	<style name="FarmBlocks.ButtonFlat.White">
+		<item name="backgroundTint">@color/button_white_background</item>
+		<item name="android:textColor">@color/button_white_text</item>
 	</style>
 
 </resources>
