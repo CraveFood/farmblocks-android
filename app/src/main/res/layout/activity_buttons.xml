@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	tools:context=".ButtonsActivity">
+
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:gravity="center"
+		android:orientation="vertical"
+		android:padding="16dp">
+
+		<Button
+			style="@style/FarmBlocks.Button.Primary"
+			android:layout_margin="8dp"
+			android:text="Primary Button"
+			tools:ignore="HardcodedText" />
+
+		<Button
+			style="@style/FarmBlocks.Button.Secondary"
+			android:layout_margin="8dp"
+			android:text="Secondary Button"
+			tools:ignore="HardcodedText" />
+
+		<Button
+			style="@style/FarmBlocks.Button.Neutral"
+			android:layout_margin="8dp"
+			android:text="Neutral Button"
+			tools:ignore="HardcodedText" />
+
+		<Button
+			style="@style/FarmBlocks.Button.White"
+			android:layout_margin="8dp"
+			android:text="White Button"
+			tools:ignore="HardcodedText" />
+
+		<Button
+			style="@style/FarmBlocks.Button.Accept"
+			android:layout_margin="8dp"
+			android:text="Accept Button"
+			tools:ignore="HardcodedText" />
+
+		<Button
+			style="@style/FarmBlocks.Button.Primary"
+			android:layout_margin="8dp"
+			android:enabled="false"
+			android:text="Primary Button Disabled"
+			tools:ignore="HardcodedText" />
+
+		<Button
+			style="@style/FarmBlocks.ButtonFlat.Primary"
+			android:layout_margin="8dp"
+			android:text="Primary Flat Button"
+			tools:ignore="HardcodedText" />
+
+		<Button
+			style="@style/FarmBlocks.ButtonFlat.Secondary"
+			android:layout_margin="8dp"
+			android:text="Secondary Flat Button"
+			tools:ignore="HardcodedText" />
+
+		<Button
+			style="@style/FarmBlocks.ButtonFlat.Neutral"
+			android:layout_margin="8dp"
+			android:text="Neutral Flat Button"
+			tools:ignore="HardcodedText" />
+
+		<Button
+			style="@style/FarmBlocks.ButtonFlat.White"
+			android:layout_margin="8dp"
+			android:text="White Flat Button"
+			tools:ignore="HardcodedText" />
+
+		<Button
+			style="@style/FarmBlocks.ButtonFlat.Primary"
+			android:layout_margin="8dp"
+			android:enabled="false"
+			android:text="Primary Flat Button"
+			tools:ignore="HardcodedText" />
+
+		<com.google.android.material.floatingactionbutton.FloatingActionButton
+			style="@style/FarmBlocks.FloatingActionButton"
+			android:layout_margin="8dp"
+			android:src="@drawable/ic_edit" />
+
+		<com.google.android.material.floatingactionbutton.FloatingActionButton
+			style="@style/FarmBlocks.FloatingActionButton.Small"
+			android:layout_margin="8dp"
+			android:src="@drawable/ic_edit" />
+
+	</LinearLayout>
+
+</ScrollView>

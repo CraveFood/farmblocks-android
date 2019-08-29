@@ -1,4 +1,5 @@
 <resources>
-    <string name="app_name">farmblocks-android</string>
-    <string name="text_styles">Text Styles</string>
+	<string name="app_name">farmblocks-android</string>
+	<string name="text_styles">Text Styles</string>
+	<string name="buttons">Buttons</string>
 </resources>
