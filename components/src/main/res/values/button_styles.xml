@@ -28,6 +28,7 @@
 	</style>
 
 	<style name="FarmBlocks.Button.White">
+		<item name="android:background">@drawable/button_rect_ripple_background</item>
 		<item name="backgroundTint">@color/button_white_background</item>
 		<item name="android:textColor">@color/button_white_text</item>
 	</style>
