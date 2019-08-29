@@ -17,14 +17,14 @@
 		<item name="android:textColor">@color/button_primary_text</item>
 	</style>
 
+	<style name="FarmBlocks.Button.Secondary">
+		<item name="backgroundTint">@color/button_secondary_background</item>
+		<item name="android:textColor">@color/button_secondary_text</item>
+	</style>
+
 	<style name="FarmBlocks.Button.Neutral">
 		<item name="backgroundTint">@color/button_neutral_background</item>
 		<item name="android:textColor">@color/button_neutral_text</item>
-	</style>
-
-	<style name="FarmBlocks.Button.White">
-		<item name="backgroundTint">@color/button_white_background</item>
-		<item name="android:textColor">@color/button_white_text</item>
 	</style>
 
 	<style name="FarmBlocks.FloatingActionButton" parent="Widget.MaterialComponents.FloatingActionButton">
@@ -60,14 +60,14 @@
 		<item name="android:textColor">@color/button_primary_text</item>
 	</style>
 
-	<style name="FarmBlocks.ButtonFlat.Neutral">
-		<item name="backgroundTint">@color/button_neutral_background</item>
-		<item name="android:textColor">@color/button_neutral_text</item>
+	<style name="FarmBlocks.ButtonFlat.Secondary">
+		<item name="backgroundTint">@color/button_secondary_background</item>
+		<item name="android:textColor">@color/button_secondary_text</item>
 	</style>
 
 	<style name="FarmBlocks.ButtonFlat.White">
-		<item name="backgroundTint">@color/button_white_background</item>
-		<item name="android:textColor">@color/button_white_text</item>
+		<item name="backgroundTint">@color/button_neutral_background</item>
+		<item name="android:textColor">@color/button_neutral_text</item>
 	</style>
 
 </resources>

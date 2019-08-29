@@ -20,13 +20,13 @@
 			tools:ignore="HardcodedText" />
 
 		<Button
-			style="@style/FarmBlocks.Button.Neutral"
+			style="@style/FarmBlocks.Button.Secondary"
 			android:layout_margin="8dp"
-			android:text="Neutral Button"
+			android:text="Secondary Button"
 			tools:ignore="HardcodedText" />
 
 		<Button
-			style="@style/FarmBlocks.Button.White"
+			style="@style/FarmBlocks.Button.Neutral"
 			android:layout_margin="8dp"
 			android:text="White Button"
 			tools:ignore="HardcodedText" />
@@ -45,9 +45,9 @@
 			tools:ignore="HardcodedText" />
 
 		<Button
-			style="@style/FarmBlocks.ButtonFlat.Neutral"
+			style="@style/FarmBlocks.ButtonFlat.Secondary"
 			android:layout_margin="8dp"
-			android:text="Neutral Flat Button"
+			android:text="Secondary Flat Button"
 			tools:ignore="HardcodedText" />
 
 		<Button
