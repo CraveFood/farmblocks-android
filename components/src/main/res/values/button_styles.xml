@@ -32,6 +32,13 @@
 		<item name="android:textColor">@color/button_white_text</item>
 	</style>
 
+	<style name="FarmBlocks.Button.Accept">
+		<item name="backgroundTint">@color/button_accept_background</item>
+		<item name="android:textColor">@color/button_accept_text</item>
+		<item name="android:drawablePadding">8dp</item>
+		<item name="android:drawableStart">@drawable/ic_check_white</item>
+	</style>
+
 	<style name="FarmBlocks.FloatingActionButton" parent="Widget.MaterialComponents.FloatingActionButton">
 		<item name="android:layout_width">56dp</item>
 		<item name="android:layout_height">56dp</item>

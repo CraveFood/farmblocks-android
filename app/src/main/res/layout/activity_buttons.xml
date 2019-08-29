@@ -38,6 +38,12 @@
 			tools:ignore="HardcodedText" />
 
 		<Button
+			style="@style/FarmBlocks.Button.Accept"
+			android:layout_margin="8dp"
+			android:text="Accept Button"
+			tools:ignore="HardcodedText" />
+
+		<Button
 			style="@style/FarmBlocks.Button.Primary"
 			android:layout_margin="8dp"
 			android:enabled="false"
