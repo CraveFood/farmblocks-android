@@ -25,6 +25,12 @@
 			android:layout_height="wrap_content"
 			android:text="@string/buttons" />
 
+		<Button
+			android:id="@+id/textViewEditText"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:text="@string/edit_text" />
+
 	</LinearLayout>
 
 </ScrollView>
