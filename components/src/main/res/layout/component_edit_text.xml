@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="wrap_content"
+	android:orientation="vertical">
+
+	<com.google.android.material.textfield.TextInputLayout
+		android:id="@+id/textInputLayout"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:theme="@style/FarmBlocks.TextStyle.TextInputLayout">
+
+		<com.google.android.material.textfield.TextInputEditText
+			android:id="@+id/textInputEditText"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:backgroundTint="@color/colorTextGray4"
+			android:textAppearance="@style/FarmBlocks.TextStyle.InputNormalLabel" />
+
+	</com.google.android.material.textfield.TextInputLayout>
+
+	<TextView
+		android:id="@+id/textViewBottomLabel"
+		style="@style/FarmBlocks.TextStyle.InputMinLabel"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:paddingEnd="4dp"
+		android:paddingStart="4dp"
+		android:visibility="gone"
+		tools:text="Bottom label"
+		tools:visibility="visible" />
+
+</LinearLayout>
