@@ -13,20 +13,20 @@
 		android:orientation="vertical"
 		android:padding="16dp">
 
-		<br.com.components.editText.EditText
+		<br.com.components.editText.CustomEditText
 			android:layout_width="match_parent"
 			android:layout_height="wrap_content"
 			app:bottomLabel="@string/app_name"
 			app:enabled="true"
 			app:hint="Test" />
 
-		<br.com.components.editText.EditText
+		<br.com.components.editText.CustomEditText
 			android:layout_width="match_parent"
 			android:layout_height="wrap_content"
 			app:enabled="true"
 			app:hint="Test" />
 
-		<br.com.components.editText.EditText
+		<br.com.components.editText.CustomEditText
 			android:layout_width="match_parent"
 			android:layout_height="wrap_content"
 			app:bottomLabel="@string/app_name"

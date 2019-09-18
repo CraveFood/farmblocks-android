@@ -6,30 +6,30 @@ import android.view.LayoutInflater
 import android.view.View
 import android.widget.RelativeLayout
 import br.com.components.R
-import kotlinx.android.synthetic.main.component_edit_text.view.*
+import kotlinx.android.synthetic.main.component_custom_edit_text.view.*
 
-class EditText @JvmOverloads constructor(
+class CustomEditText @JvmOverloads constructor(
 	context: Context,
 	attrs: AttributeSet? = null
 ) : RelativeLayout(context, attrs) {
 
 	init {
 		LayoutInflater.from(context)
-			.inflate(R.layout.component_edit_text, this, true)
+			.inflate(R.layout.component_custom_edit_text, this, true)
 
 		attrs?.let {
-			val typedArray = context.obtainStyledAttributes(it, R.styleable.EditText, 0, 0)
+			val typedArray = context.obtainStyledAttributes(it, R.styleable.CustomEditText, 0, 0)
 
-			val isEnabled = typedArray.getBoolean(R.styleable.EditText_enabled, true)
+			val isEnabled = typedArray.getBoolean(R.styleable.CustomEditText_enabled, true)
 			setEnabled(isEnabled)
 
-			val hint = typedArray.getText(R.styleable.EditText_hint)
+			val hint = typedArray.getText(R.styleable.CustomEditText_hint)
 			setHint(hint)
 
-			val text = typedArray.getText(R.styleable.EditText_text)
+			val text = typedArray.getText(R.styleable.CustomEditText_text)
 			setText(text)
 
-			val bottomLabel = typedArray.getText(R.styleable.EditText_bottomLabel)
+			val bottomLabel = typedArray.getText(R.styleable.CustomEditText_bottomLabel)
 			setBottomLabel(bottomLabel)
 
 			typedArray.recycle()
