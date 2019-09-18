@@ -1,35 +1,37 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ScrollView
 	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
 	xmlns:tools="http://schemas.android.com/tools"
 	android:layout_width="match_parent"
 	android:layout_height="match_parent"
-	tools:context=".MainActivity">
+	tools:context=".EditTextActivity">
 
 	<LinearLayout
 		android:layout_width="match_parent"
 		android:layout_height="wrap_content"
-		android:layout_gravity="center"
 		android:orientation="vertical"
 		android:padding="16dp">
 
-		<Button
-			android:id="@+id/textViewTextStyles"
+		<br.com.components.editText.CustomEditText
 			android:layout_width="match_parent"
 			android:layout_height="wrap_content"
-			android:text="@string/text_styles" />
+			app:bottomLabel="@string/app_name"
+			app:enabled="true"
+			app:hint="Test" />
 
-		<Button
-			android:id="@+id/textViewButton"
+		<br.com.components.editText.CustomEditText
 			android:layout_width="match_parent"
 			android:layout_height="wrap_content"
-			android:text="@string/buttons" />
+			app:enabled="true"
+			app:hint="Test" />
 
-		<Button
-			android:id="@+id/textViewEditText"
+		<br.com.components.editText.CustomEditText
 			android:layout_width="match_parent"
 			android:layout_height="wrap_content"
-			android:text="@string/edit_text" />
+			app:bottomLabel="@string/app_name"
+			app:enabled="false"
+			app:hint="Test" />
 
 	</LinearLayout>
 

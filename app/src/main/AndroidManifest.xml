@@ -26,6 +26,9 @@
 		<activity
 			android:name=".ButtonsActivity"
 			android:label="@string/buttons"></activity>
+		<activity
+			android:name=".EditTextActivity"
+			android:label="@string/edit_text"></activity>
 	</application>
 
 </manifest>

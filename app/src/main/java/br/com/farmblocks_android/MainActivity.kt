@@ -18,5 +18,9 @@ class MainActivity : AppCompatActivity() {
 		textViewButton.setOnClickListener {
 			startActivity(Intent(this, ButtonsActivity::class.java))
 		}
+
+		textViewEditText.setOnClickListener {
+			startActivity(Intent(this, EditTextActivity::class.java))
+		}
 	}
 }
